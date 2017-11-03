@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout style="@style/TitleLayout">
+
+        <ImageView
+            android:id="@+id/iv_gzrw_back"
+            style="@style/titleLayoutBackArrow" />
+
+        <TextView
+            style="@style/TitleMidText"
+            android:text="选择相册" />
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#d000">-->
+
+    <!--<GridView-->
+    <!--android:id="@+id/gridview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:horizontalSpacing="3dp"-->
+    <!--android:numColumns="2"-->
+    <!--android:scrollbars="none"-->
+    <!--android:verticalSpacing="5dp" />-->
+    <!--</RelativeLayout>-->
+
+    <ListView
+        android:id="@+id/album_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff" />
+
+</LinearLayout>

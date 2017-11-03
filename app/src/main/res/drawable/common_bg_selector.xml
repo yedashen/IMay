@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--这是很多普通的条目的按下背景selector ，比如创建任务的最后一步，的选择开始时间-->
+    <item android:drawable="@color/colorCommonItemPressed" android:state_pressed="true" />
+    <item android:drawable="@color/colorWhite" />
+</selector>
